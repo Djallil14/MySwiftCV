@@ -12,6 +12,7 @@ you can easily change the color on the main view
 Here's an example of my own CV rendered with it 
 a screenshot of the pdf:
 
+<img width="373" alt="Screen Shot 2021-07-30 at 8 14 24 PM" src="https://user-images.githubusercontent.com/82174673/127722644-609613b4-08ff-4577-83be-cb952103b9cb.png">
 
 the pdf:
 https://pdfhost.io/v/Tww0ZxSGQ_MyOtherCV.pdf
