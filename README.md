@@ -9,10 +9,10 @@ you can easily change the color on the main view
 
 
 
-Here's an example of my own CV rendered with it 
+Here's an example of a CV rendered with it 
 a screenshot of the pdf:
 
-<img width="373" alt="Screen Shot 2021-07-30 at 8 14 24 PM" src="https://user-images.githubusercontent.com/82174673/127722644-609613b4-08ff-4577-83be-cb952103b9cb.png">
+<img width="489" alt="Screen Shot 2021-07-30 at 8 38 55 PM" src="https://user-images.githubusercontent.com/82174673/127723309-962b0483-c018-46aa-b1b1-4b4ad47a24fc.png">
 
 the pdf:
-https://pdfhost.io/v/Tww0ZxSGQ_MyOtherCV.pdf
+https://pdfhost.io/v/D~biEb2J~_MyOtherCV.pdf
