@@ -10,7 +10,7 @@ import SwiftUI
 extension View {
     func exportToPDF(fileName: String) {
         let outputFileURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent(fileName)
-        let pageSize = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 1.6)
+        let pageSize = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 1.4)
         
         //View to render on PDF
         let myUIHostingController = UIHostingController(rootView: self)
