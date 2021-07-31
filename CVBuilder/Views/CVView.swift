@@ -34,7 +34,7 @@ struct CVView: View {
             }
             SectionTitle(title: competenceSectionTitle, color: color)
             CompetenceView(skills: cvStore.cv[0].skills, color: color).padding(8)
-            ExperiencesAndEducation(color: color, experiences: cvStore.cv[0].experience, experienceSectionTitle: experienceSectionTitle, educations: cvStore.cv[0].education,educationSectionTitle: educationSectionTitle)
+            ExperiencesAndEducation(color: color, experiences: cvStore.cv[0].experience, experienceSectionTitle: experienceSectionTitle, educations: cvStore.cv[0].education,educationSectionTitle: educationSectionTitle).edgesIgnoringSafeArea(.bottom)
             Spacer()
         }.background(Color.blue.opacity(0.1))
     }

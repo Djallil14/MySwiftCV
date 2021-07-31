@@ -22,7 +22,7 @@ struct ExperiencesAndEducation: View {
                         ExperienceView(experience: experience, color: color)
                     }
                     Spacer()
-                }.padding(8)
+                }.padding(.horizontal, 8)
             }
             Divider()
             VStack {
@@ -32,7 +32,7 @@ struct ExperiencesAndEducation: View {
                         EducationView(education: education, color: color)
                     }
                     Spacer()
-                }.padding(8)
+                }.padding(.horizontal, 8)
             }
         }
     }

@@ -15,17 +15,19 @@ struct CompetenceView: View {
             Spacer()
             VStack {
                 VStack(alignment: .leading) {
-                    Text("Languages:").font(.title3).bold().foregroundColor(color)
-                        .padding(.bottom, 4)
-                    ForEach(0..<skills.language.count){index in
-                        Text(skills.language[index])
+                    Text("Programming Languages:").font(.title3).bold().foregroundColor(color)
+                    ForEach(0..<skills.programmingLanguages.count){index in
+                        Text(skills.programmingLanguages[index])
+                    }
+                    Text("Spoken Languages:").font(.title3).bold().foregroundColor(color)
+                    ForEach(0..<skills.spokenLanguages.count){index in
+                        Text(skills.spokenLanguages[index])
                     }
                     Text("CS Basics:").font(.title3).bold().foregroundColor(color)
-                        .padding(.vertical, 4)
                     ForEach(0..<skills.csBasics.count){index in
                         Text(skills.csBasics[index])
-                    }
-                }.padding(.trailing, 24)
+                    }.padding(.trailing, 24)
+                }
             }
             Spacer()
             VStack(alignment: .leading){

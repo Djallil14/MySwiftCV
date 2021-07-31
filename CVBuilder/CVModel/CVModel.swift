@@ -35,7 +35,8 @@ struct Experience: Identifiable {
 
 struct Skills: Identifiable {
     var id = UUID()
-    let language: [String]
+    let programmingLanguages: [String]
+    let spokenLanguages: [String]
     let framework: [String]
     let csBasics: [String]
 }
@@ -60,7 +61,7 @@ extension CV {
                         Experience(title: "Vice-President Logistics for Events", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare lectus sit amet est placerat in egestas erat. In nibh mauris cursus mattis.", company: "Company Name", duration: "04/2019\n04/2020"),
                         Experience(title: "Program coordinator", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare lectus sit amet est placerat in egestas erat. In nibh mauris cursus mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare lectus sit amet est placerat in egestas erat. In nibh mauris cursus mattis.", company: "Company Name", duration: "09/2019\n01/2020")
             ],
-            skills: Skills(language: ["Swift", "HTML/CSS Basics", "Sass"], framework: ["SwiftUI","Publishers on Combine", "Firebase","UITableView", "UICollectionView","Storyboard and Autolayout Basics" ,"Basics of XCTests", "RestApi's call/JSON Decoder and Encoder", "CoreData", "LottieFiles", "AVFoundation Basics"], csBasics: ["SOLID","OOP","MVVM","MVC"]),
+        skills: Skills(programmingLanguages: ["Swift", "HTML/CSS Basics", "Sass"], spokenLanguages: ["French","English","Arabic"], framework: ["SwiftUI","Publishers on Combine", "Firebase","UITableView", "UICollectionView","Storyboard and Autolayout Basics" ,"Basics of XCTests", "RestApi's call/JSON Decoder and Encoder", "CoreData", "LottieFiles", "AVFoundation Basics"], csBasics: ["SOLID","OOP","MVVM","MVC"]),
             education: [Education(university: "University Name", diploma: "The probably long name of your diploma", description: "Among other things, the program helps develop the capacity to design, plan and implement, manage and evaluate social responsibility programs in all types of organizations.",periode: "Jan 2018\nJuillet 2020"),
                         Education(university: "University Name", diploma: "The probably long name of your diploma", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare lectus sit amet est placerat in egestas erat. In nibh mauris cursus mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare lectus sit amet est placerat in egestas erat. In nibh mauris cursus mattis.", periode: "01/2017\n03/2018"),
                         Education(university: "University Name", diploma: "The probably long name of your diploma", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare lectus sit amet est placerat in egestas erat. In nibh mauris cursus mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare lectus sit amet est placerat in egestas erat. In nibh mauris cursus mattis.", periode: "09/2018\n07/2014")
